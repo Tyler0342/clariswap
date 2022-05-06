@@ -21,7 +21,7 @@ Clarinet.test({
         tuple["msg"].expectAscii("Hello world");
         tuple["tip"].expectUint(1);
         tuple["sender"].expectPrincipal("ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM");
-
+/*
         block = chain.mineBlock([
     
             /* 
@@ -31,5 +31,6 @@ Clarinet.test({
         ]);
         assertEquals(block.receipts.length, 0);
         assertEquals(block.height, 3);
+        */
     },
 });
